@@ -1,0 +1,17 @@
+body,
+html {
+  height: 103%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://media-exp1.licdn.com/dms/image/C4D1BAQHhrBP04YKuqg/company-background_10000/0/1564066502174?e=2159024400&v=beta&t=IG_2QdcANX7qlNC0cjPmZtC033AyTMGLuWzZd2gSJ6o");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

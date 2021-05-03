@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+        <meta charset="UTF-8">
+        <meta nome="viewport" content="width-device-width, initia-scale-1.0">
+        <title> Formulário Teste </title>
+        <link rel="=stylesheet" type="text/css" href="formulario.css" media="scream">
+    </head>
+    <body>
+
+        <div class="campo">
+            <h1 id="titulo"> Cadastro League of Legends</h1>
+            <p id="subtitulo"> Complete suas Informações</p>
+            <br>
+        </div>
+
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nick</strong></label>
+                    <input type="text" name="nick" id="nick" required>
+                </div>
+            <br>
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email">
+            </div>
+        </fieldset class="grupo">
+            <div class="campo">
+                <label><strong>Qual campeão você prefere?</strong></label>
+                <label>
+                    <input type="radio" name="adc" value="Ashe" checked>Ashe
+                </label>
+
+                <label>
+                    <input type="radio" name="adc" value="Kalista">Kalista
+                </label>
+
+                <label>
+                    <input type="radio" name="adc" value="Sivir">Sivir             
+                </label>
+
+                <label>
+                    <input type="radio" name="adc" value="Jhin">Jhin
+                </label>
+
+                <label>
+                    <input type="radio" name="adc" value="Ashe">Ashe
+                </label>
+            </div><br>
+
+            <div class="campo">
+                <label><strong>Quais Itens você prefere no seu ADC</strong></label>
+                <select id="itens">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Letalidade</option>
+                    <option>Critico</option>
+                    <option>Vel. de Atk</option>
+                </select>
+            </div><br>
+
+            <fieldset class="grupo">
+                <div id="checkbox">
+                    <label><strong>Selecione suporte preferido</strong></label><br><br>
+                    <input type="checkbox" id="suportes" name="suporte1" value="Alistar">
+                    <label for="suporte1">Alistar</label>
+                    <input type="checkbox" id="suporte" name="suporte2" value="Leona">
+                    <label for="suporte2">Leona</label>
+                    <input type="checkbox" id="suporte" name="suporte3" value="Nami">
+                    <label for="suporte3">Nami</label>
+                    <input type="checkbox" id="suporte" name="suporte4" value="Lulu">
+                    <label for="suporte4">Lulu</label>
+                    <input type="checkbox" id="suporte" name="suporte5" value="Bardo">
+                    <label for="suporte5">Bardo</label>
+                    <input type="checkbox" id="suporte" name="suporte6" value="Lux">
+                    <label for="suporte6">Lux</label>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <br>
+                <label><strong>Fale um pouco da função do ADC no jogo:</strong></label><br>
+                <textarea row="6" style="width: 26em" id="Função" name="Função"></textarea>
+            </div><br>
+
+            <button for="botao" type="submit">Concluído</button>
+        </form>
+
+    </body>
+</html>
+    
